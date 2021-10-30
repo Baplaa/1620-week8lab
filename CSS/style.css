@@ -18,16 +18,40 @@ body {
 nav {
     border-bottom: 1px solid black;
     background-color: #CED0CE;
+    min-width: 1000px;
+    width: 100%;
+}
+
+.nav-design ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-design {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-design a::after {
+    display: inline-block;
+    color: #000;
+    content: '|';
+    font-size: 80%;
+    padding: 0 3px;
 }
 
 h1 {
     color: #3F403F;
     background-color: #9FB8AD;
+    padding: 10px;
+    text-align: center;
+    min-width: 1000px;
 }
 
 h2 {
     color: #3F403F;
     background-color: #9FB8AD;
+    padding: 10px;
 }
 
 p {
@@ -40,8 +64,11 @@ p {
     color: #3F403F;
 }
 
-.nudge {
-    margin-top: 25px;
+.selfie {
+    margin-top: 20px;
+    border: 5px solid #3F403F;
+    display: flex;
+    width: 300px;
 }
 
 a {
@@ -55,4 +82,21 @@ a:visited {
 
 a:hover {
     background-color: yellow;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    min-width: 1000px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    column-gap: 5px;
+    width: 500px;
 }
