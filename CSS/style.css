@@ -1,0 +1,58 @@
+/* 
+E6E8E6
+CED0CE
+3F403F
+9FB8AD
+*/
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+body {
+    background-color: #E6E8E6;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    background-color: #CED0CE;
+}
+
+h1 {
+    color: #3F403F;
+    background-color: #9FB8AD;
+}
+
+h2 {
+    color: #3F403F;
+    background-color: #9FB8AD;
+}
+
+p {
+    font-family: 'Arvo', serif;
+    color: #3F403F;
+}
+
+.sans {
+    font-family: 'Lato', sans-serif;
+    color: #3F403F;
+}
+
+.nudge {
+    margin-top: 25px;
+}
+
+a {
+    color:mediumpurple;
+}
+
+a:visited {
+    color: mediumpurple;
+    text-decoration: underline overline #9FB8AD;
+}
+
+a:hover {
+    background-color: yellow;
+}
